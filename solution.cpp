@@ -13,7 +13,7 @@ int main(){
   cin >> level;
   vector<vector<int>> tree;
   tree.resize(2);
-  int size = (int)pow((double)2, (double)level + 1);
+  int size = (int)pow(2, level + 1);
   tree[0].resize(size, 0);
   tree[1].resize(size);
   for (int i = 2; i < size; ++i) {
